@@ -42,6 +42,7 @@ request.setCharacterEncoding("utf-8");
        String mails="";
        String[] mail= request.getParameterValues("mail");
 		
+       //チェックボックスの表示処理
 		if(mail!=null) {
 		for(int i=0;i<mail.length;i++ ) {
 			mails=mails+"「"+mail[i]+"」"+" ";
@@ -52,7 +53,7 @@ request.setCharacterEncoding("utf-8");
 			request.setAttribute("mails", mails);
 		}
 		
-		
+		//資料請求の選択による、遷移先JSPファイル指定
         if(info.equals("No")){
 			
 		RequestDispatcher rd = request.getRequestDispatcher("/jsp/contact2.jsp");
