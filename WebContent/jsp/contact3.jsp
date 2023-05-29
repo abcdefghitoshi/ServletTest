@@ -10,7 +10,7 @@
 
 <p>この度は資料請求いただきありがとうございます。<p><br>
 以下のリンクから資料ダウンロード可能です。<br>
-<a href="https://github.com/">https://github.com/</a><br>
+<a href="https://github.com/">https://github.com/abcdefghitoshi/ServletTest</a><br>
 <br>
 ーーーーーーーーーーーーーーーーーーーーー<br>
 氏名:<%= request.getParameter("name") %><br>
